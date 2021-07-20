@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Ballistic Energy Calculator - calculates muzzle energy and Taylor Knock Out Factor
+          Copyright (C) 2011 George Yauneridge
+  
+          This program is free software: you can redistribute it and/or modify
+          it under the terms of the GNU General Public License as published by
+         the Free Software Foundation, either version 3 of the License, or (at
+          your option) any later version.
+ 
+          This program is distributed in the hope that it will be useful, but
+          WITHOUT ANY WARRANTY; without even the implied warranty of
+          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+          General Public License for more details.
+  
+          You should have received a copy of the GNU General Public License
+          along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="about_content">Este aplicativo calcula o KO Fator Taylor ea energia focinho por um projétil. A energia inicial é calculada usando as armas de fogo fórmula indústria padrão. Momentum é a massa multiplicada pela velocidade. O KO Factor de Taylor é um número maior do que zero para determinar o poder de knock-down de um projéctil. A Taylor KO é calculada usando uma equação desenhado por John Taylor para comparar a eficácia de rodadas de arma de fogo com base em massa, velocidade e diâmetro do projétil. Website: techandtopics.blogspot.com</string>
+    <string name="app_name">Calculadora Energia Ballistic</string>
+    <string name="help_content">Enter: a massa do projéctil em grãos (por exemplo, 185,5.), A velocidade como um número inteiro, em pés por segundo (por exemplo, 1100.), E o diâmetro em polegadas como um decimal (por exemplo, 0,451.). A energia focinho e impulso de saída é em libras-pé.</string>
+    <string name="error_content">Por favor, valores de entrada para a velocidade e massa. Os valores padrão são texto dica e não devem ser computados. Diâmetro deve ser digitada para ter um resultado preciso KO. Mais ajuda pode ser acessada através do botão menu.</string>
+    <string name="help_des">Botão para exibir a mensagem de ajuda</string>
+    <string name="about_des">Botão para exibir a mensagem sobre</string>
+    <string name="calculate_des">Botão para calcular resultado</string>
+    <string name="help">Ajuda</string>
+    <string name="about">Sobre</string>
+    <string name="velocity">Velocidade:</string>
+    <string name="mass">massa:</string>
+    <string name="diameter">diâmetro:</string>
+    <string name="calculate">calcular</string>
+    <string name="taylor_ko">Taylor KO:</string>
+    <string name="energy">Energia (ft-lb):</string>
+    <string name="momentum">Impulso (ft-lb):</string>
+    <string name="metric_energy">Energia (J):</string>
+    <string name="metric_momentum">Impulso (kg-m / s):</string>
+    <string name="ok">Está bem</string>
+    <string name="metric_velocity_hint">390 m/s</string>
+    <string name="metric_mass_hint">7,45 gram</string>
+    <string name="metric_diameter_hint">9 mm</string>
+    <string name="switch_to_metric">Você quer mudar para unidades métricas \ n Velocity -? M / s \ n Massa - g \ n Diâmetro - mm \ n Focinho Energia - J \ n Momentum - kg-m / s</string>
+    <string name="switch_to_english">Você quer mudar para unidades inglesas \ n Velocity -? Fps \ n Massa - gr \ n diâmetro - polegadas \ n Focinho Energia - ft-lbs \ n Momentum - ft-lbs</string>
+    <string name="menu_metric">Tipos de Unidade</string>
+    <string name="metric_help_content">Enter: a massa do projéctil em gramas (por exemplo 13.5.), A velocidade como um número inteiro, em metros por segundo (por exemplo, 350.), E o diâmetro em milímetros (por exemplo 11.5.). A energia focinho é, em Joules e impulso é em quilogramas por metro por segundo.</string>
+    <string name="velocity_hint">3200 fps</string>
+    <string name="mass_hint">55,0 grãos</string>
+    <string name="diameter_hint">0,223 polegadas</string>
+    <string name="change_units">Metric / Inglês</string>
+    <string name="cancel">cancelar</string>
+    
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Ballistic Energy Calculator - calculates muzzle energy and Taylor Knock Out Factor
+          Copyright (C) 2011 George Yauneridge
+  
+          This program is free software: you can redistribute it and/or modify
+          it under the terms of the GNU General Public License as published by
+         the Free Software Foundation, either version 3 of the License, or (at
+          your option) any later version.
+ 
+          This program is distributed in the hope that it will be useful, but
+          WITHOUT ANY WARRANTY; without even the implied warranty of
+          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+          General Public License for more details.
+  
+          You should have received a copy of the GNU General Public License
+          along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="about_content">Это приложение вычисляет KO фактор Тейлора и дульной энергией для снаряда. Дульная энергия рассчитывается с использованием огнестрельного оружия стандартной формуле промышленность. Импульс масса умноженное на скорости. Тейлор KO фактор является число больше нуля, чтобы определить бросовым силу снаряда. Тейлор KO рассчитывается с помощью уравнения разработанный Джоном Тейлором, чтобы сравнить эффективность огнестрельного оружия туров на основе массы, скорости и диаметра снаряда. Сайт: techandtopics.blogspot.com</string>
+    <string name="app_name">Баллистический Калькулятор энергии</string>
+    <string name="help_content">Ввод: масса снаряда в зернах (например 185.5.), Скорость в виде целого числа в футах в секунду (например, 1100.), А диаметр в дюймах в десятичной (например 0,451.).Дульной энергией и импульсом выводится в фут-фунтов.</string>
+    <string name="error_content">Пожалуйста, вводите значения для скорости и массы . Значения по умолчанию намек текст и не должны быть вычислены . Диаметр должен быть введен , чтобы иметь точный результат KO . Дополнительная помощь можно получить через меню кнопки .</string>
+    <string name="help_des">Кнопка для отображения сообщения справки</string>
+    <string name="about_des">Кнопка для отображения о сообщение</string>
+    <string name="calculate_des">Кнопка для расчета результата</string>
+    <string name="help">Помощь</string>
+    <string name="about">Об этом</string>
+    <string name="velocity">Скорость:</string>
+    <string name="mass">Macca</string>
+    <string name="diameter">диаметр:</string>
+    <string name="calculate">вычислять</string>
+    <string name="taylor_ko">Тейлор KO :</string>
+    <string name="energy">Энергетика (фут-фунт):</string>
+    <string name="momentum">Momentum (фут-фунт):</string>
+    <string name="metric_energy">Энергия (Дж):</string>
+    <string name="metric_momentum">Импульс (кг м / с):</string>
+    <string name="ok">Хорошо</string>
+    <string name="metric_velocity_hint">390 м / сек</string>
+    <string name="metric_mass_hint">7,45 г</string>
+    <string name="metric_diameter_hint">9 MM</string>
+    <string name="switch_to_metric">Вы хотите, чтобы перейти в метрические единицы \ п Скорость - м / с \ п Масса - г \ н Диаметр - мм \ п дульная энергия - J \ п Импульс - кг м / с</string>
+    <string name="switch_to_english">Вы хотите, чтобы перейти на английский единиц \ п Скорость - кадров в секунду \ п Масса - гр \ N Диаметр - дюймов \ п дульная энергия - фут-фунт \ п Momentum - фут-фунтов</string>
+    <string name="menu_metric">Типы блоков</string>
+    <string name="metric_help_content">Ввод: масса снаряда в граммах (например 13,5.), Скорость в виде целого числа в метрах в секунду (например, 350.), И диаметру в миллиметрах (например, 11.5.).Дульной энергией в джоулях и импульс в килограммах на метр в секунду.</string>
+    <string name="velocity_hint">3200 кадров в секунду</string>
+    <string name="mass_hint">55,0 зерна</string>
+    <string name="diameter_hint">.223 дюймов</string>
+    <string name="change_units">Метрическая / английский</string>
+    <string name="cancel">отменить</string>
+    
+
+</resources>

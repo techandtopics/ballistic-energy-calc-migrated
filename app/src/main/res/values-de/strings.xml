@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Ballistic Energy Calculator - calculates muzzle energy and Taylor Knock Out Factor
+          Copyright (C) 2011 George Yauneridge
+  
+          This program is free software: you can redistribute it and/or modify
+          it under the terms of the GNU General Public License as published by
+         the Free Software Foundation, either version 3 of the License, or (at
+          your option) any later version.
+ 
+          This program is distributed in the hope that it will be useful, but
+          WITHOUT ANY WARRANTY; without even the implied warranty of
+          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+          General Public License for more details.
+  
+          You should have received a copy of the GNU General Public License
+          along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="about_content">Diese Anwendung berechnet die Taylor KO-Faktor und die Mündungsenergie für ein Geschoss. Die Mündungsenergie wird mit den Schusswaffen-Industrie Standard-Formel berechnet. Momentum wird Masse durch Geschwindigkeit multipliziert. Die Taylor-KO Faktor ist eine Zahl größer als Null ist, um den Knockdown-Leistung eines Projektils zu bestimmen. Die Taylor-KO wird unter Verwendung einer Gleichung von John Taylor entwickelt, um die Wirksamkeit der Feuerwaffe Runden bezogen auf die Masse, der Geschwindigkeit und der Durchmesser des Geschosses Vergleichen berechnet. Website: techandtopics.blogspot.com</string>
+    <string name="app_name">Ballistische Energierechner</string>
+    <string name="help_content">Ein: die Masse des Projektils in Getreide (z 185,5.), Die Geschwindigkeit als eine ganze Zahl in Fuß pro Sekunde (zB 1100.), Und der Durchmesser in Zoll als Dezimalzahl (zB .451.). Die Schnauze Energie und Impuls ausgegeben wird in Fuß-Pfund.</string>
+    <string name="error_content">Bitte Eingabewerte für Geschwindigkeit und Masse. Die Standardwerte sind Hinweistext und sollen nicht berechnet werden. Durchmesser muss eingegeben werden, um eine genaue KO Ergebnis haben werden. Mehr Hilfe durch die Menü-Taste aufgerufen werden.</string>
+    <string name="help_des">Taste, um die Hilfemeldung angezeigt</string>
+    <string name="about_des">Taste, um die Meldung anzeigen zu</string>
+    <string name="calculate_des">Taste, um Ergebnis zu berechnen</string>
+    <string name="help">Hilfe</string>
+    <string name="about">Über</string>
+    <string name="velocity">Geschwindigkeit:</string>
+    <string name="mass">Massen-</string>
+    <string name="diameter">Durchmesser</string>
+    <string name="calculate">berechnen</string>
+    <string name="taylor_ko">Taylor KO:</string>
+    <string name="energy">Energy (ft-lb):</string>
+    <string name="momentum">Moment (ft-lb):</string>
+    <string name="metric_energy">Energie (J):</string>
+    <string name="metric_momentum">Moment (kg-m / s):</string>
+    <string name="ok">Ok</string>
+    <string name="metric_velocity_hint">390 m/s</string>
+    <string name="metric_mass_hint">7,45 Gramm</string>
+    <string name="metric_diameter_hint">9 mm</string>
+    <string name="switch_to_metric">Möchten Sie in metrische Einheiten wechseln möchten \ n Velocity - m / s \ n Messe - g \ n Durchmesser - mm \ n Mündungsenergie - J \ n Momentum - kg-m / s</string>
+    <string name="switch_to_english">Wollen Sie, um englischen Einheiten wechseln möchten \ n Velocity - fps \ n Messe - gr \ n Durchmesser - Zoll \ n Mündungsenergie - ft-lbs \ n Momentum - ft-lbs</string>
+    <string name="menu_metric">Einheitentypen</string>
+    <string name="metric_help_content">Ein: die Masse des Projektils in Gramm (zB 13.5.), Die Geschwindigkeit als eine ganze Zahl in Meter pro Sekunde (zB 350.), Und der Durchmesser in Millimetern (zB 11.5.). Die Mündungsenergie in Joule und Impuls ist in Kilogramm pro Meter pro Sekunde.</string>
+    <string name="velocity_hint">3200 fps</string>
+    <string name="mass_hint">55,0 Körner</string>
+    <string name="diameter_hint">0,223 inch</string>
+    <string name="change_units">Metrisch / englisch</string>
+    <string name="cancel">stornieren</string>
+    
+</resources>

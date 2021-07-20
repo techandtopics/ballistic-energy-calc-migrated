@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  	  
+ Ballistic Energy Calculator - calculates muzzle energy and Taylor Knock Out Factor
+          Copyright (C) 2011 George Yauneridge
+  
+          This program is free software: you can redistribute it and/or modify
+          it under the terms of the GNU General Public License as published by
+         the Free Software Foundation, either version 3 of the License, or (at
+          your option) any later version.
+ 
+          This program is distributed in the hope that it will be useful, but
+          WITHOUT ANY WARRANTY; without even the implied warranty of
+          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+          General Public License for more details.
+  
+          You should have received a copy of the GNU General Public License
+          along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+    <string name="about_content">This application calculates the Taylor KO Factor and the muzzle energy for a projectile. The muzzle energy is calculated using the firearms industry\'s standard formula. Momentum is mass multiplied by velocity. The Taylor KO Factor is a number greater than zero to determine the knock-down power of a projectile. The Taylor KO is calculated using an equation designed by John Taylor to compare the effectiveness of firearm rounds based on mass, velocity, and diameter of the projectile. Website: techandtopics.blogspot.com</string>
+    <string name="app_name">Ballistic Energy Calculator</string>
+    <string name="help_content">Enter: the mass of the projectile in grains (eg. 185.5), the velocity as an integer in feet per second (eg. 1100), and the diameter in inches as a decimal (eg. .451). The muzzle energy and momentum is output in foot-pounds.</string>
+    <string name="metric_help_content">Enter: the mass of the projectile in grams (eg. 13.5), the velocity as an integer in meters per second (eg. 350), and the diameter in millimeters (eg. 11.5). The muzzle energy is in Joules and momentum is in kilograms per meter per second.</string>
+    <string name="error_content">Please input values for velocity and mass. The default values are hint text and are not supposed to be computed. Diameter must be entered to have an accurate KO result. More help can be accessed through the menu button.</string>
+    <string name="menu_metric">Unit Types</string>
+    <string name="switch_to_metric">Do you want to switch to metric units?\n Velocity - m/s\n Mass - g\n Diameter - mm\n Muzzle Energy - J\n Momentum - kg-m/s</string>
+    <string name="switch_to_english">Do you want to switch to English units?\n Velocity - fps\n Mass - gr\n Diameter - inches\n Muzzle Energy - ft-lbs\n Momentum - ft-lbs</string>
+    
+    <!-- For content descriptions -->
+    <string name="help_des">Button to display the help message</string>
+    <string name="about_des">Button to display the about message</string>
+    <string name="calculate_des">Button to calculate result</string>
+    
+    <!-- For labels -->
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="velocity">Velocity: </string>
+    <string name="mass">Mass: </string>
+    <string name="diameter">Diameter: </string>
+    <string name="calculate">Calculate</string>
+    <string name="change_units">Metric/English</string>    
+    <string name="taylor_ko">Taylor KO: </string>
+    <string name="energy">Energy (ft-lb): </string>
+    <string name="momentum">Momentum (ft-lb): </string>
+    <string name="metric_energy">Energy (J): </string>
+    <string name="metric_momentum">Momentum (kg-m/s): </string> 
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- For STANDARD hint text -->
+    <string name="velocity_hint">3200 fps</string>
+    <string name="mass_hint">55.0 grains</string>
+    <string name="diameter_hint">.223 inch</string>
+    
+    <!-- For METRIC hint text -->
+    <string name="metric_velocity_hint">373 m/s</string>
+    <string name="metric_mass_hint">12.0 g</string>
+    <string name="metric_diameter_hint">11.5 mm</string>
+    
+</resources>

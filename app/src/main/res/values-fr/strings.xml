@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Ballistic Energy Calculator - calculates muzzle energy and Taylor Knock Out Factor
+          Copyright (C) 2011 George Yauneridge
+  
+          This program is free software: you can redistribute it and/or modify
+          it under the terms of the GNU General Public License as published by
+         the Free Software Foundation, either version 3 of the License, or (at
+          your option) any later version.
+ 
+          This program is distributed in the hope that it will be useful, but
+          WITHOUT ANY WARRANTY; without even the implied warranty of
+          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+          General Public License for more details.
+  
+          You should have received a copy of the GNU General Public License
+          along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="about_content">Cette application calcule le facteur KO Taylor et l\'énergie de bouche pour un projectile. l\'énergie initiale est calculée en utilisant les armes à feu de la formule standard de l\'industrie. Momentum est la masse multipliée par la vitesse. Le facteur KO Taylor est un nombre supérieur à zéro afin de déterminer la puissance de knock-down d\'un projectile. Le KO Taylor est calculée en utilisant une équation conçu par John Taylor à comparer l\'efficacité des tours d\'armes à feu sur la base de la masse, la vitesse, et le diamètre du projectile. Site Web: techandtopics.blogspot.com</string>
+    <string name="app_name">Calculateur d\'énergie balistique</string>
+    <string name="help_content">Entrée: la masse du projectile en grains (par exemple, 185,5.), La vitesse comme un nombre entier en pieds par seconde (par exemple, 1,100.), Et le diamètre en pouce sous forme décimale (par exemple, 0,451.). l\'énergie de la bouche et de l\'élan est sortie en livres-pied.</string>
+    <string name="error_content">S\'il vous plaît valeurs d\'entrée pour la vitesse et la masse. Les valeurs par défaut sont texte de soupçon et ne sont pas censés être calculé. Diamètre doit être entré pour avoir un résultat précis KO. Plus d\'aide peut être accédé via le bouton de menu.</string>
+    <string name="help_des">Bouton pour afficher le message d\'aide</string>
+    <string name="about_des">Bouton pour afficher le message sur</string>
+    <string name="calculate_des">Bouton pour calculer la suite</string>
+    <string name="help">Aider</string>
+    <string name="about">Sur</string>
+    <string name="velocity">vitesse:</string>
+    <string name="mass">la messe</string>
+    <string name="diameter">diamètre</string>
+    <string name="calculate">calculer</string>
+    <string name="taylor_ko">Taylor KO:</string>
+    <string name="energy">Energie (lb-pi):</string>
+    <string name="momentum">Momentum (lb-pi):</string>
+    <string name="metric_energy">Énergie (J):</string>
+    <string name="metric_momentum">Momentum (kg-m / s):</string>
+    <string name="ok">Dáccord</string>
+    <string name="metric_velocity_hint">390 m/s</string>
+    <string name="metric_mass_hint">7,45 gramme</string>
+    <string name="metric_diameter_hint">9 mm</string>
+    <string name="switch_to_metric">Voulez-vous passer en unités métriques \ n Velocity -? M / s \ n messe - g \ n Diamètre - mm \ n Museau énergie - J \ n Momentum - kg-m / s</string>
+    <string name="switch_to_english">Voulez-vous passer à des unités anglaises \ n Velocity -? Fps \ n messe - gr \ n diamètre - pouces \ n Museau énergie - lb-pi - Momentum lb-pi \ n</string>
+    <string name="menu_metric">Types d\'unités</string>
+    <string name="metric_help_content">Entrée: la masse du projectile en grammes (par exemple 13.5.), La vitesse comme un nombre entier en mètres par seconde (par exemple, 350.), Et le diamètre en millimètres (par exemple 11.5.). l\'énergie initiale est en Joules et l\'élan est en kilogrammes par mètre par seconde.</string>
+    <string name="velocity_hint">3200 fps</string>
+    <string name="mass_hint">55,0 grains</string>
+    <string name="diameter_hint">0,223 pouces</string>
+    <string name="change_units">Métrique / Anglais</string>
+    <string name="cancel">annuler</string>
+    
+
+</resources>

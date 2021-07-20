@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  	  
+ Ballistic Energy Calculator - calculates muzzle energy and Taylor Knock Out Factor
+          Copyright (C) 2011 George Yauneridge
+  
+          This program is free software: you can redistribute it and/or modify
+          it under the terms of the GNU General Public License as published by
+         the Free Software Foundation, either version 3 of the License, or (at
+          your option) any later version.
+ 
+          This program is distributed in the hope that it will be useful, but
+          WITHOUT ANY WARRANTY; without even the implied warranty of
+          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+          General Public License for more details.
+  
+          You should have received a copy of the GNU General Public License
+          along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	
+    <Button android:id="@+id/metric" 		
+		android:layout_width="120dip"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="10dip"
+		android:layout_marginLeft="30dip"
+		android:background="#00aaaaaa"
+		android:textColor="#aaaaaa"
+		android:text="@string/change_units"
+		android:contentDescription="@string/help_des"
+		android:onClick="switchUnitTypes" />
+	<Button android:id="@+id/help" 		
+		android:layout_width="60dip"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="10dip"
+		android:layout_marginLeft="20dip"
+		android:layout_toRightOf="@id/metric"
+		android:layout_alignTop="@+id/metric"
+		android:background="#00aaaaaa"
+		android:textColor="#aaaaaa"
+		android:text="@string/help"
+		android:contentDescription="@string/help_des"
+		android:onClick="showHelp" />
+	<Button android:id="@+id/about" 
+		android:layout_width="75dip"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dip"
+		android:layout_toRightOf="@id/help"
+		android:layout_alignTop="@+id/help"
+		android:background="#00aaaaaa"
+		android:textColor="#aaaaaa"
+		android:text="@string/about" 
+		android:contentDescription="@string/about_des"
+		android:onClick="showAbout"/>
+	<TextView android:id="@+id/velocityPrompt" 
+		android:textColor="#aaaaaa"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="20dip"
+		android:layout_marginLeft="20dip"
+		android:layout_below="@id/about"
+		android:text="@string/velocity" />
+	<EditText android:id="@+id/velocityEntry" 
+		android:inputType="number"
+		android:maxLength="5"
+		android:hint="@string/velocity_hint"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="15dip"
+		android:background="@android:drawable/editbox_background"
+		android:layout_toRightOf="@id/velocityPrompt" 
+		android:layout_alignTop="@id/velocityPrompt" />
+	<TextView android:id="@+id/massPrompt" 
+		android:textColor="#aaaaaa"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="20dip"
+		android:layout_below="@id/velocityEntry"
+		android:text="@string/mass" />
+	<EditText android:id="@+id/massEntry" 
+		android:inputType="numberDecimal"
+		android:maxLength="6"
+		android:hint="@string/mass_hint"
+		android:layout_width="150dip"
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="15dip"
+		android:background="@android:drawable/editbox_background"
+		android:layout_toRightOf="@id/massPrompt" 
+		android:layout_alignTop="@id/massPrompt"/>
+	<TextView android:id="@+id/diameterPrompt" 
+		android:textColor="#aaaaaa"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dip" 
+		android:layout_below="@id/massEntry"
+		android:text="@string/diameter" />
+	<EditText android:id="@+id/diameterEntry" 
+		android:inputType="numberDecimal"
+		android:maxLength="5"
+		android:hint="@string/diameter_hint"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="15dip"
+		android:background="@android:drawable/editbox_background"
+		android:layout_toRightOf="@id/diameterPrompt" 
+		android:layout_alignTop="@id/diameterPrompt" />
+	<Button android:id="@+id/calculate" 
+		android:contentDescription="@string/calculate_des"
+		android:layout_width="150dip"
+		android:layout_height="50dip" 
+		android:layout_below="@id/diameterEntry"
+		android:layout_alignLeft="@id/diameterEntry"
+		android:textStyle="bold"
+		android:text="@string/calculate"
+		android:onClick="calculate"/>
+	<TextView android:id="@+id/labelTKO" 
+		android:textColor="#aaaaaa"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="180dip"
+		android:layout_height="wrap_content"		
+		android:layout_marginTop="20dip" 
+		android:layout_marginLeft="20dip" 
+		android:layout_below="@id/calculate"
+		android:text="@string/taylor_ko" />
+	<TextView android:id="@+id/displayTKO" 
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"		
+		android:layout_toRightOf="@id/labelTKO"
+		android:layout_alignTop="@id/labelTKO"
+		android:textColor="#aaaaaa"
+		android:text=" " />	
+	<TextView android:id="@+id/labelME" 
+		android:textColor="#aaaaaa"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="180dip"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dip" 
+		android:layout_marginTop="20dip" 
+		android:layout_below="@id/labelTKO"
+		android:text="@string/energy" />
+	<TextView android:id="@+id/displayME" 
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/labelME"
+		android:layout_alignTop="@id/labelME"
+		android:textColor="#aaaaaa"
+		android:text=" " />	
+	<TextView android:id="@+id/labelMomentum" 
+		android:textColor="#aaaaaa"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="180dip"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dip" 
+		android:layout_marginTop="20dip" 
+		android:layout_below="@id/labelME"
+		android:text="@string/momentum" />
+	<TextView android:id="@+id/displayMomentum" 
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/labelMomentum"
+		android:layout_alignTop="@id/labelMomentum"
+		android:textColor="#aaaaaa"
+		android:text=" " />	
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Ballistic Energy Calculator - calculates muzzle energy and Taylor Knock Out Factor
+          Copyright (C) 2011 George Yauneridge
+  
+          This program is free software: you can redistribute it and/or modify
+          it under the terms of the GNU General Public License as published by
+         the Free Software Foundation, either version 3 of the License, or (at
+          your option) any later version.
+ 
+          This program is distributed in the hope that it will be useful, but
+          WITHOUT ANY WARRANTY; without even the implied warranty of
+          MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+          General Public License for more details.
+  
+          You should have received a copy of the GNU General Public License
+          along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="about_content">此应用程序计算泰勒KO因子和枪口能量射弹。枪口能量使用枪械业\的标准公式计算。动量是质量乘以速度。泰勒KO系数是大于零的数量越多，以确定弹丸的击倒力。泰勒KO使用由约翰·泰勒设计了一个方程来比较基于质量的弹丸，速度和直径火器轮的有效性来计算。网址：techandtopics.blogspot.com</string>
+    <string name="app_name">弹道能源计算器</string>
+    <string name="help_content">输入：弹丸在谷物的质量（例如185.5），速度为每秒（如1100）的脚的整数，并且在英寸的直径为小数（例如0.451）。枪口能量和动量是英尺 - 磅的输出。</string>
+    <string name="error_content">请输入值的速度和质量。默认值是提示文本，并且不应该被计算出来。直径必须输入有一个准确的KO的结果。更多的帮助，可通过菜单键进行访问。</string>
+    <string name="help_des">按钮显示帮助信息</string>
+    <string name="about_des">按钮以显示有关消息</string>
+    <string name="calculate_des">按钮计算结果</string>
+    <string name="help">帮助</string>
+    <string name="about">关于</string>
+    <string name="velocity">速度：</string>
+    <string name="mass">质量</string>
+    <string name="diameter">直径</string>
+    <string name="calculate">计算</string>
+    <string name="taylor_ko">泰勒KO</string>
+    <string name="energy">能量（英尺 - 磅）：</string>
+    <string name="momentum">动量（英尺 - 磅）：</string>
+    <string name="metric_energy">能量（J）：</string>
+    <string name="metric_momentum">动量（公斤米/秒）：</string>
+    <string name="ok">行</string>
+    <string name="metric_velocity_hint">390 米/秒</string>
+    <string name="metric_mass_hint">7.45 克</string>
+    <string name="metric_diameter_hint">9 毫米</string>
+    <string name="switch_to_metric">你想切换到公制单位\ñ速度 - ？米/秒\ñ质量 - 克\ñ直径 - 毫米\ñ枪口动能 - J\ñ动量 - 公斤米/秒</string>
+    <string name="switch_to_english">你想切换到英文台\ñ速度 - FPS\ñ质量 - 克\ñ直径 - 英寸\ñ枪口动能 - 磅 - 英尺\ñ动量 - 英尺 - 磅</string>
+    <string name="menu_metric">单元类型</string>
+    <string name="metric_help_content">输入：弹丸的质量克数（例如13.5。），速度为每秒（例如350）米的整数，以毫米为单位的直径（例如，11.5）。枪口能量是焦耳和气势是每秒每米公斤。</string>
+    <string name="velocity_hint">3200 FPS</string>
+    <string name="mass_hint">55.0 谷物</string>
+    <string name="diameter_hint">0.223英寸</string>
+    <string name="change_units">公制/英制</string>
+    <string name="cancel">取消</string>
+    
+
+</resources>
