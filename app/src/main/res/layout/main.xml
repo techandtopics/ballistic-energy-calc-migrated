@@ -23,7 +23,7 @@
     <Button android:id="@+id/metric" 		
 		android:layout_width="120dip"
 		android:layout_height="wrap_content" 
-		android:layout_marginTop="10dip"
+		android:layout_marginTop="20dip"
 		android:layout_marginLeft="30dip"
 		android:background="#00aaaaaa"
 		android:textColor="#aaaaaa"
@@ -32,8 +32,7 @@
 		android:onClick="switchUnitTypes" />
 	<Button android:id="@+id/help" 		
 		android:layout_width="60dip"
-		android:layout_height="wrap_content" 
-		android:layout_marginTop="10dip"
+		android:layout_height="wrap_content"
 		android:layout_marginLeft="20dip"
 		android:layout_toRightOf="@id/metric"
 		android:layout_alignTop="@+id/metric"
