@@ -17,7 +17,7 @@
           along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <string name="about_content">This application calculates the Taylor KO Factor and the muzzle energy for a projectile. The muzzle energy is calculated using the firearms industry\'s standard formula. Momentum is mass multiplied by velocity. The Taylor KO Factor is a number greater than zero to determine the knock-down power of a projectile. The Taylor KO is calculated using an equation designed by John Taylor to compare the effectiveness of firearm rounds based on mass, velocity, and diameter of the projectile. Website: techandtopics.blogspot.com</string>
+    <string name="about_content">This application calculates the Taylor KO Factor and the muzzle energy for a projectile. The muzzle energy is calculated using the firearms industry\'s standard formula. Momentum is mass multiplied by velocity. Power Factor is mass in grains multiplied by velocity, divided by 1000. The Taylor KO Factor is a number greater than zero to determine the knock-down power of a projectile. The Taylor KO is calculated using an equation designed by John Taylor to compare the effectiveness of firearm rounds based on mass, velocity, and diameter of the projectile. Website: techandtopics.blogspot.com</string>
     <string name="app_name">Ballistic Energy Calculator</string>
     <string name="help_content">Enter: the mass of the projectile in grains (eg. 185.5), the velocity as an integer in feet per second (eg. 1100), and the diameter in inches as a decimal (eg. .451). The muzzle energy and momentum is output in foot-pounds.</string>
     <string name="metric_help_content">Enter: the mass of the projectile in grams (eg. 13.5), the velocity as an integer in meters per second (eg. 350), and the diameter in millimeters (eg. 11.5). The muzzle energy is in Joules and momentum is in kilograms per meter per second.</string>
@@ -43,7 +43,8 @@
     <string name="energy">Energy (ft-lb): </string>
     <string name="momentum">Momentum (ft-lb): </string>
     <string name="metric_energy">Energy (J): </string>
-    <string name="metric_momentum">Momentum (kg-m/s): </string> 
+    <string name="metric_momentum">Momentum (kg-m/s): </string>
+    <string name="power_factor">Power Factor: </string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     

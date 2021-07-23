@@ -18,7 +18,7 @@
 -->
 <resources>
 
-    <string name="about_content">Este aplicativo calcula o KO Fator Taylor ea energia focinho por um projétil. A energia inicial é calculada usando as armas de fogo fórmula indústria padrão. Momentum é a massa multiplicada pela velocidade. O KO Factor de Taylor é um número maior do que zero para determinar o poder de knock-down de um projéctil. A Taylor KO é calculada usando uma equação desenhado por John Taylor para comparar a eficácia de rodadas de arma de fogo com base em massa, velocidade e diâmetro do projétil. Website: techandtopics.blogspot.com</string>
+    <string name="about_content">Esta aplicação calcula o Fator Taylor KO e a energia da focinheira para um projétil. A energia da focinheira é calculada usando a fórmula padrão da indústria de armas de fogo. O momento é multiplicado em massa pela velocidade. Fator de Potência é massa em grãos multiplicados pela velocidade, dividido por 1000. O Fator Taylor KO é um número maior que zero para determinar o poder de derrubar um projétil. O Taylor KO é calculado usando uma equação projetada por John Taylor para comparar a eficácia das balas de arma de fogo com base na massa, velocidade e diâmetro do projétil. Site: techandtopics.blogspot.com</string>
     <string name="app_name">Calculadora Energia Ballistic</string>
     <string name="help_content">Enter: a massa do projéctil em grãos (por exemplo, 185,5.), A velocidade como um número inteiro, em pés por segundo (por exemplo, 1100.), E o diâmetro em polegadas como um decimal (por exemplo, 0,451.). A energia focinho e impulso de saída é em libras-pé.</string>
     <string name="error_content">Por favor, valores de entrada para a velocidade e massa. Os valores padrão são texto dica e não devem ser computados. Diâmetro deve ser digitada para ter um resultado preciso KO. Mais ajuda pode ser acessada através do botão menu.</string>
@@ -36,6 +36,7 @@
     <string name="momentum">Impulso (ft-lb):</string>
     <string name="metric_energy">Energia (J):</string>
     <string name="metric_momentum">Impulso (kg-m / s):</string>
+    <string name="power_factor">Fator de Potência: </string>
     <string name="ok">Está bem</string>
     <string name="metric_velocity_hint">390 m/s</string>
     <string name="metric_mass_hint">7,45 gram</string>

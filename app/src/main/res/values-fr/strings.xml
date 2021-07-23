@@ -18,7 +18,7 @@
 -->
 <resources>
 
-    <string name="about_content">Cette application calcule le facteur KO Taylor et l\'énergie de bouche pour un projectile. l\'énergie initiale est calculée en utilisant les armes à feu de la formule standard de l\'industrie. Momentum est la masse multipliée par la vitesse. Le facteur KO Taylor est un nombre supérieur à zéro afin de déterminer la puissance de knock-down d\'un projectile. Le KO Taylor est calculée en utilisant une équation conçu par John Taylor à comparer l\'efficacité des tours d\'armes à feu sur la base de la masse, la vitesse, et le diamètre du projectile. Site Web: techandtopics.blogspot.com</string>
+    <string name="about_content">Cette application calcule le facteur KO de Taylor et l\'énergie initiale d\'un projectile. L\'énergie initiale est calculée à l\'aide de la formule standard de l\'industrie des armes à feu. La quantité de mouvement est la masse multipliée par la vitesse. Le facteur de puissance est la masse en grains multipliée par la vitesse, divisée par 1000. Le facteur Ko de Taylor est un nombre supérieur à zéro pour déterminer la puissance de knock-down d\'un projectile. Le Taylor KO est calculé à l\'aide d\'une équation conçue par John Taylor pour comparer l\'efficacité des cartouches d\'armes à feu en fonction de la masse, de la vitesse et du diamètre du projectile. Site Web : techandtopics.blogspot.com</string>
     <string name="app_name">Calculateur d\'énergie balistique</string>
     <string name="help_content">Entrée: la masse du projectile en grains (par exemple, 185,5.), La vitesse comme un nombre entier en pieds par seconde (par exemple, 1,100.), Et le diamètre en pouce sous forme décimale (par exemple, 0,451.). l\'énergie de la bouche et de l\'élan est sortie en livres-pied.</string>
     <string name="error_content">S\'il vous plaît valeurs d\'entrée pour la vitesse et la masse. Les valeurs par défaut sont texte de soupçon et ne sont pas censés être calculé. Diamètre doit être entré pour avoir un résultat précis KO. Plus d\'aide peut être accédé via le bouton de menu.</string>
@@ -36,6 +36,7 @@
     <string name="momentum">Momentum (lb-pi):</string>
     <string name="metric_energy">Énergie (J):</string>
     <string name="metric_momentum">Momentum (kg-m / s):</string>
+    <string name="power_factor">Facteur de puissance: </string>
     <string name="ok">Dáccord</string>
     <string name="metric_velocity_hint">390 m/s</string>
     <string name="metric_mass_hint">7,45 gramme</string>

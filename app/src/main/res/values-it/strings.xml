@@ -18,7 +18,7 @@
 -->
 <resources>
 
-    <string name="about_content">Questa applicazione calcola la Taylor KO Factor e l\'energia muso di un proiettile. l\'energia muso è calcolata utilizzando le armi da fuoco formula standard del settore. Momentum è la massa moltiplicata per la velocità. Il Taylor KO Factor è un numero maggiore di zero per determinare la potenza knock-down di un proiettile. La Taylor KO è calcolato utilizzando l\'equazione progettata da John Taylor per confrontare l\'efficacia dei colpi di arma da fuoco a base di massa, velocità, e il diametro del proiettile. Sito web: techandtopics.blogspot.com</string>
+    <string name="about_content">Questa applicazione calcola il fattore TAYLOR KO e l\'energia del muso per un proiettile. L\'energia del muso viene calcolata utilizzando la formula standard dell\'industria delle armi da fuoco. Il momento è massa moltiplicato per velocità. Il fattore di potenza è una massa in grani moltiplicata per velocità, divisa per 1000. Il fattore TAYLOR KO è un numero maggiore di zero per determinare la potenza di knock-down di un proiettile. Il Taylor KO è calcolato usando un\'equazione progettata da John Taylor per confrontare l\'efficacia dei proiettili di arma da fuoco in base alla massa, alla velocità e al diametro del proiettile. Sito web: techandtopics.blogspot.com</string>
     <string name="app_name">Ballistic Energy Calculator</string>
     <string name="help_content">Inserire: la massa del proiettile in grani (es 185.5.), La velocità come numero intero in piedi al secondo (ad esempio 1.100.), E il diametro in pollici come decimale (es .451.). l\'energia muso e quantità di moto è uscita in piedi-libbre.</string>
     <string name="error_content">Si prega di valori di input per la velocità e la massa. I valori predefiniti sono testo di suggerimento e non dovrebbero essere calcolati. Diametro deve essere inserito per avere un risultato preciso KO. Più aiuto si può accedere attraverso il tasto menu.</string>
@@ -36,6 +36,7 @@
     <string name="momentum">Momentum (ft-lb):</string>
     <string name="metric_energy">Energia (J):</string>
     <string name="metric_momentum">Momentum (kg-m / s):</string>
+    <string name="power_factor">Fattore di potenza: </string>
     <string name="ok">Ok</string>
     <string name="metric_velocity_hint">390 m/s</string>
     <string name="metric_mass_hint">7,45 grammo</string>

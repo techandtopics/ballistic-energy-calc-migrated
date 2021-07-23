@@ -17,6 +17,7 @@
 package com.blogspot.techandtopics;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -55,6 +56,7 @@ public class EnergyCalc extends Activity {
 	private TextView displayTKO; // displays calculated TKO
 	private TextView displayME; // displays calculated Energy
 	private TextView displayMomentum; // displays calculated Momentum
+	private TextView displayPowerFactor; // displays calculated Power Factor
 	
 	public static final String MASS_TYPE_GRAMS = "g";
 	public static final String VELOCITY_TYPE_METERS = "m/s";
@@ -81,6 +83,7 @@ public class EnergyCalc extends Activity {
 		displayTKO = (TextView) findViewById(R.id.displayTKO);
 		displayME = (TextView) findViewById(R.id.displayME);
 		displayMomentum = (TextView) findViewById(R.id.displayMomentum);
+		displayPowerFactor = (TextView) findViewById(R.id.displayPowerFactor);
 	}
 
 	/**
@@ -95,6 +98,8 @@ public class EnergyCalc extends Activity {
 				(String) displayME.getText());
 		savedInstanceState.putString("bundleValueMomentum",
 				(String) displayMomentum.getText());
+		savedInstanceState.putString("bundleValuePowerFactor",
+				(String) displayPowerFactor.getText());
 		savedInstanceState.putBoolean("bundleIsMetric",isMetric);
 		super.onSaveInstanceState(savedInstanceState);
 	}
@@ -108,6 +113,7 @@ public class EnergyCalc extends Activity {
 		displayTKO.setText(savedInstanceState.getString("bundleValueTKO"));
 		displayME.setText(savedInstanceState.getString("bundleValueME"));
 		displayMomentum.setText(savedInstanceState.getString("bundleValueMomentum"));
+		displayPowerFactor.setText(savedInstanceState.getString("bundleValuePowerFactor"));
 		isMetric = savedInstanceState.getBoolean("bundleIsMetric");
 		setLabels();
 	}
@@ -271,6 +277,7 @@ public class EnergyCalc extends Activity {
 			BigDecimal mass = new BigDecimal(massEntry.getText().toString());
 			BigDecimal grainsInPound = new BigDecimal("7000");
 			BigDecimal resultMomentum = new BigDecimal("0");
+			BigDecimal resultPowerFactor = new BigDecimal("0");
 		
 			if(isMetric == true){ //calculate momentum in kg*m/s, convert velocity and mass to English units for use with ME formula
 				resultMomentum = velocity.multiply(mass);
@@ -294,6 +301,14 @@ public class EnergyCalc extends Activity {
 				result = convertOutputToMetric(result, ME_TYPE_JOULES);
 			}
 			displayME.setText(myFormat(result.toString()));
+
+			// Power Factor = (mass in grains * velocity in fps)/1000
+			// values already converted from metric above as necessary
+			resultPowerFactor = mass.multiply(velocity);
+			resultPowerFactor = resultPowerFactor.divide(new BigDecimal("1000"), 2, RoundingMode.DOWN);
+
+
+			displayPowerFactor.setText(resultPowerFactor.toString());
 			
 			if (!isValid(diameterEntry)) {
 				displayTKO.setText("-");
@@ -397,6 +412,7 @@ public class EnergyCalc extends Activity {
 		displayTKO.setText("-");
 		displayME.setText("-");
 		displayMomentum.setText("-");
+		displayPowerFactor.setText("-");
 	}
 	
 	public void setLabels(){

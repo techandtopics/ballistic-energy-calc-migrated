@@ -180,4 +180,23 @@
 		android:layout_alignTop="@id/labelMomentum"
 		android:textColor="#aaaaaa"
 		android:text=" " />
+	<TextView android:id="@+id/labelPowerFactor"
+		android:textColor="#aaaaaa"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="180dip"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dip"
+		android:layout_marginTop="10dip"
+		android:layout_below="@id/labelMomentum"
+		android:text="@string/power_factor" />
+	<TextView android:id="@+id/displayPowerFactor"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/labelPowerFactor"
+		android:layout_alignTop="@id/labelPowerFactor"
+		android:textColor="#aaaaaa"
+		android:text=" " />
 </RelativeLayout>

@@ -18,7 +18,7 @@
 -->
 <resources>
 
-    <string name="about_content">Diese Anwendung berechnet die Taylor KO-Faktor und die Mündungsenergie für ein Geschoss. Die Mündungsenergie wird mit den Schusswaffen-Industrie Standard-Formel berechnet. Momentum wird Masse durch Geschwindigkeit multipliziert. Die Taylor-KO Faktor ist eine Zahl größer als Null ist, um den Knockdown-Leistung eines Projektils zu bestimmen. Die Taylor-KO wird unter Verwendung einer Gleichung von John Taylor entwickelt, um die Wirksamkeit der Feuerwaffe Runden bezogen auf die Masse, der Geschwindigkeit und der Durchmesser des Geschosses Vergleichen berechnet. Website: techandtopics.blogspot.com</string>
+    <string name="about_content">Diese Anwendung berechnet den Taylor KO-Faktor und die Mündungsenergie für ein Projektil. Die Mündungsenergie wird nach der Standardformel der Schusswaffenindustrie berechnet. Der Impuls ist die Masse multipliziert mit der Geschwindigkeit. Der Leistungsfaktor ist die Masse in Körnern multipliziert mit der Geschwindigkeit, geteilt durch 1000. Der Taylor-KO-Faktor ist eine Zahl größer als Null, um die Knock-Down-Kraft eines Projektils zu bestimmen. Der Taylor KO wird mit einer gleichung berechnet, die von John Taylor entwickelt wurde, um die Wirksamkeit von Schusswaffengeschossen basierend auf Masse, Geschwindigkeit und Durchmesser des Projektils zu vergleichen. Webseite: techandtopics.blogspot.com</string>
     <string name="app_name">Ballistische Energierechner</string>
     <string name="help_content">Ein: die Masse des Projektils in Getreide (z 185,5.), Die Geschwindigkeit als eine ganze Zahl in Fuß pro Sekunde (zB 1100.), Und der Durchmesser in Zoll als Dezimalzahl (zB .451.). Die Schnauze Energie und Impuls ausgegeben wird in Fuß-Pfund.</string>
     <string name="error_content">Bitte Eingabewerte für Geschwindigkeit und Masse. Die Standardwerte sind Hinweistext und sollen nicht berechnet werden. Durchmesser muss eingegeben werden, um eine genaue KO Ergebnis haben werden. Mehr Hilfe durch die Menü-Taste aufgerufen werden.</string>
@@ -36,6 +36,7 @@
     <string name="momentum">Moment (ft-lb):</string>
     <string name="metric_energy">Energie (J):</string>
     <string name="metric_momentum">Moment (kg-m / s):</string>
+    <string name="power_factor">Leistungsfaktor: </string>
     <string name="ok">Ok</string>
     <string name="metric_velocity_hint">390 m/s</string>
     <string name="metric_mass_hint">7,45 Gramm</string>
