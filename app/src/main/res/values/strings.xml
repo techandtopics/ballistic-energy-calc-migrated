@@ -24,7 +24,7 @@
     <string name="error_content">Please input values for velocity and mass. The default values are hint text and are not supposed to be computed. Diameter must be entered to have an accurate KO result. More help can be accessed through the menu button.</string>
     <string name="menu_metric">Unit Types</string>
     <string name="switch_to_metric">Do you want to switch to metric units?\n Velocity - m/s\n Mass - g\n Diameter - mm\n Muzzle Energy - J\n Momentum - kg-m/s</string>
-    <string name="switch_to_english">Do you want to switch to English units?\n Velocity - fps\n Mass - gr\n Diameter - inches\n Muzzle Energy - ft-lbs\n Momentum - ft-lbs</string>
+    <string name="switch_to_english">Do you want to switch to English units?\n Velocity - fps\n Mass - gr\n Diameter - inches\n Muzzle Energy - ft-lbs\n Momentum - ft-lbs/s</string>
     
     <!-- For content descriptions -->
     <string name="help_des">Button to display the help message</string>

@@ -42,7 +42,7 @@
     <string name="metric_mass_hint">7,45 gramos</string>
     <string name="metric_diameter_hint">9 mm</string>
     <string name="switch_to_metric">¿Quieres cambiar a unidades métricas \ n Velocity - m / s \ n Misa - g \ n Diámetro - mm \ n Hocico Energía - J \ n Momentum - kg-m / s</string>
-    <string name="switch_to_english">¿Quieres cambiar a unidades inglesas \ n Velocity - Misa fps \ n - gr \ n - Diámetro pulgadas \ n Hocico Energía - ft-lbs \ n Momentum - ft-lbs</string>
+    <string name="switch_to_english">¿Quieres cambiar a unidades inglesas \ n Velocity - Misa fps \ n - gr \ n - Diámetro pulgadas \ n Hocico Energía - ft-lbs \ n Momentum - ft-lbs/s</string>
     <string name="menu_metric">Tipos de unidad</string>
     <string name="metric_help_content">Enter: la masa del proyectil en gramos (por ejemplo, 13,5.), La velocidad como un entero en metros por segundo (por ejemplo, 350.), Y el diámetro en milímetros (por ejemplo, 11,5.). La energía hocico es en julios y el impulso es en kilogramos por metro por segundo.</string>
     <string name="velocity_hint">3200 fps</string>

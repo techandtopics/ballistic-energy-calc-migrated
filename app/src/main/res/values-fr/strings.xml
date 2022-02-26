@@ -42,7 +42,7 @@
     <string name="metric_mass_hint">7,45 gramme</string>
     <string name="metric_diameter_hint">9 mm</string>
     <string name="switch_to_metric">Voulez-vous passer en unités métriques \ n Velocity -? M / s \ n messe - g \ n Diamètre - mm \ n Museau énergie - J \ n Momentum - kg-m / s</string>
-    <string name="switch_to_english">Voulez-vous passer à des unités anglaises \ n Velocity -? Fps \ n messe - gr \ n diamètre - pouces \ n Museau énergie - lb-pi - Momentum lb-pi \ n</string>
+    <string name="switch_to_english">Voulez-vous passer à des unités anglaises \ n Velocity -? Fps \ n messe - gr \ n diamètre - pouces \ n Museau énergie - lb-pi - Momentum lb-pi/s \ n</string>
     <string name="menu_metric">Types d\'unités</string>
     <string name="metric_help_content">Entrée: la masse du projectile en grammes (par exemple 13.5.), La vitesse comme un nombre entier en mètres par seconde (par exemple, 350.), Et le diamètre en millimètres (par exemple 11.5.). l\'énergie initiale est en Joules et l\'élan est en kilogrammes par mètre par seconde.</string>
     <string name="velocity_hint">3200 fps</string>

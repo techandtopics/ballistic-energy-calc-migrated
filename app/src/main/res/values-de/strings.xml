@@ -42,7 +42,7 @@
     <string name="metric_mass_hint">7,45 Gramm</string>
     <string name="metric_diameter_hint">9 mm</string>
     <string name="switch_to_metric">Möchten Sie in metrische Einheiten wechseln möchten \ n Velocity - m / s \ n Messe - g \ n Durchmesser - mm \ n Mündungsenergie - J \ n Momentum - kg-m / s</string>
-    <string name="switch_to_english">Wollen Sie, um englischen Einheiten wechseln möchten \ n Velocity - fps \ n Messe - gr \ n Durchmesser - Zoll \ n Mündungsenergie - ft-lbs \ n Momentum - ft-lbs</string>
+    <string name="switch_to_english">Wollen Sie, um englischen Einheiten wechseln möchten \ n Velocity - fps \ n Messe - gr \ n Durchmesser - Zoll \ n Mündungsenergie - ft-lbs/s \ n Momentum - ft-lbs</string>
     <string name="menu_metric">Einheitentypen</string>
     <string name="metric_help_content">Ein: die Masse des Projektils in Gramm (zB 13.5.), Die Geschwindigkeit als eine ganze Zahl in Meter pro Sekunde (zB 350.), Und der Durchmesser in Millimetern (zB 11.5.). Die Mündungsenergie in Joule und Impuls ist in Kilogramm pro Meter pro Sekunde.</string>
     <string name="velocity_hint">3200 fps</string>

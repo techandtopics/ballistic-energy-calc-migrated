@@ -42,7 +42,7 @@
     <string name="metric_mass_hint">7,45 gram</string>
     <string name="metric_diameter_hint">9 mm</string>
     <string name="switch_to_metric">Você quer mudar para unidades métricas \ n Velocity -? M / s \ n Massa - g \ n Diâmetro - mm \ n Focinho Energia - J \ n Momentum - kg-m / s</string>
-    <string name="switch_to_english">Você quer mudar para unidades inglesas \ n Velocity -? Fps \ n Massa - gr \ n diâmetro - polegadas \ n Focinho Energia - ft-lbs \ n Momentum - ft-lbs</string>
+    <string name="switch_to_english">Você quer mudar para unidades inglesas \ n Velocity -? Fps \ n Massa - gr \ n diâmetro - polegadas \ n Focinho Energia - ft-lbs \ n Momentum - ft-lbs/s</string>
     <string name="menu_metric">Tipos de Unidade</string>
     <string name="metric_help_content">Enter: a massa do projéctil em gramas (por exemplo 13.5.), A velocidade como um número inteiro, em metros por segundo (por exemplo, 350.), E o diâmetro em milímetros (por exemplo 11.5.). A energia focinho é, em Joules e impulso é em quilogramas por metro por segundo.</string>
     <string name="velocity_hint">3200 fps</string>

@@ -42,7 +42,7 @@
     <string name="metric_mass_hint">7.45 克</string>
     <string name="metric_diameter_hint">9 毫米</string>
     <string name="switch_to_metric">你想切换到公制单位\ñ速度 - ？米/秒\ñ质量 - 克\ñ直径 - 毫米\ñ枪口动能 - J\ñ动量 - 公斤米/秒</string>
-    <string name="switch_to_english">你想切换到英文台\ñ速度 - FPS\ñ质量 - 克\ñ直径 - 英寸\ñ枪口动能 - 磅 - 英尺\ñ动量 - 英尺 - 磅</string>
+    <string name="switch_to_english">你想切换到英文台\ñ速度 - FPS\ñ质量 - 克\ñ直径 - 英寸\ñ枪口动能 - 磅 - 英尺\ñ动量 - 英尺 - 磅/秒</string>
     <string name="menu_metric">单元类型</string>
     <string name="metric_help_content">输入：弹丸的质量克数（例如13.5。），速度为每秒（例如350）米的整数，以毫米为单位的直径（例如，11.5）。枪口能量是焦耳和气势是每秒每米公斤。</string>
     <string name="velocity_hint">3200 FPS</string>

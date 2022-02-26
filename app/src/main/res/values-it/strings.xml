@@ -42,7 +42,7 @@
     <string name="metric_mass_hint">7,45 grammo</string>
     <string name="metric_diameter_hint">9 mm</string>
     <string name="switch_to_metric">Volete passare a unità metriche \ n Velocity - m / s \ n Massa - g \ n Diametro - mm \ n Muzzle Energia - J \ n Momentum - kg-m / s</string>
-    <string name="switch_to_english">Vuoi passare unità inglesi \ n Velocity -? Fps \ n Messa - gr \ n Diametro - pollici \ n Muzzle Energia - ft-lbs \ n Momentum - ft-lbs</string>
+    <string name="switch_to_english">Vuoi passare unità inglesi \ n Velocity -? Fps \ n Messa - gr \ n Diametro - pollici \ n Muzzle Energia - ft-lbs \ n Momentum - ft-lbs/s</string>
     <string name="menu_metric">Tipi di unità</string>
     <string name="metric_help_content">Inserire: la massa del proiettile in grammi (13,5 es.), La velocità come un numero intero in metri al secondo (ad esempio 350.), E il diametro in millimetri (ad es. 11.5). l\'energia muso è in Joule e quantità di moto è in chilogrammi per metro al secondo.</string>
     <string name="velocity_hint">3200 fps</string>
