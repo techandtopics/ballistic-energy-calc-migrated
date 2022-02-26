@@ -18,8 +18,8 @@
  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.blogspot.techandtopics" 
-	android:versionCode="8"
-	android:versionName="3.3">
+	android:versionCode="9"
+	android:versionName="3.4">
 
     <!-- Tested: HTC Incredible Android 2.2 -->
 
