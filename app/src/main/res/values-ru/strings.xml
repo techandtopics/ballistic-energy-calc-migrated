@@ -33,7 +33,7 @@
     <string name="calculate">вычислять</string>
     <string name="taylor_ko">Тейлор KO :</string>
     <string name="energy">Энергетика (фут-фунт):</string>
-    <string name="momentum">Momentum (фут-фунт):</string>
+    <string name="momentum">Momentum (фут-фунт/c):</string>
     <string name="metric_energy">Энергия (Дж):</string>
     <string name="metric_momentum">Импульс (кг м / с):</string>
     <string name="power_factor">Коэффициент мощности: </string>

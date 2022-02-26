@@ -33,7 +33,7 @@
     <string name="calculate">计算</string>
     <string name="taylor_ko">泰勒KO</string>
     <string name="energy">能量（英尺 - 磅）：</string>
-    <string name="momentum">动量（英尺 - 磅）：</string>
+    <string name="momentum">动量（英尺 - 磅/秒）：</string>
     <string name="metric_energy">能量（J）：</string>
     <string name="metric_momentum">动量（公斤米/秒）：</string>
     <string name="power_factor">功率因子: </string>

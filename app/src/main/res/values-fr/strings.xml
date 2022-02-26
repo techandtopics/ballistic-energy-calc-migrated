@@ -33,7 +33,7 @@
     <string name="calculate">calculer</string>
     <string name="taylor_ko">Taylor KO:</string>
     <string name="energy">Energie (lb-pi):</string>
-    <string name="momentum">Momentum (lb-pi):</string>
+    <string name="momentum">Momentum (lb-pi/s):</string>
     <string name="metric_energy">Énergie (J):</string>
     <string name="metric_momentum">Momentum (kg-m / s):</string>
     <string name="power_factor">Facteur de puissance: </string>

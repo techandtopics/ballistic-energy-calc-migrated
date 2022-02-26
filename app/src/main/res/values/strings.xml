@@ -41,7 +41,7 @@
     <string name="change_units">Metric/English</string>    
     <string name="taylor_ko">Taylor KO: </string>
     <string name="energy">Energy (ft-lb): </string>
-    <string name="momentum">Momentum (ft-lb): </string>
+    <string name="momentum">Momentum (ft-lb/s): </string>
     <string name="metric_energy">Energy (J): </string>
     <string name="metric_momentum">Momentum (kg-m/s): </string>
     <string name="power_factor">Power Factor: </string>
