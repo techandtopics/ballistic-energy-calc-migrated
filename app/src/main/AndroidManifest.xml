@@ -18,9 +18,12 @@
  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.blogspot.techandtopics" 
-	android:versionCode="9"
-	android:versionName="3.4">
+	android:versionCode="10"
+	android:versionName="3.5">
 
+	<uses-sdk
+		android:minSdkVersion="8"
+		android:targetSdkVersion="33" />
     <!-- Tested: HTC Incredible Android 2.2 -->
 
 	<application 
@@ -29,7 +32,8 @@
 		android:theme="@android:style/Theme.Black">		
 		
 		<activity 
-			android:name=".EnergyCalc" >
+			android:name=".EnergyCalc"
+			android:exported="true">
 			
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
